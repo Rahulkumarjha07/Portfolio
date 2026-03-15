@@ -42,31 +42,31 @@ const GridBackground = () => {
 
 export default function Hero() {
   const words = [
-    "Full-Stack Developer & UI/UX Enthusiast",
-    "JavaScript Developer & Creator of Olova.js",
-    "Learning MARN Stack",
-    "Linux & GitHub for DevOps Enthusiast",
+    "Aspiring Software Engineer",
+    "Full Stack Web Developer",
+    "Building Projects with React, Node & Python",
+    "Passionate About AI, Data Science & DSA",
   ];
 
   const [code] = useState(`
 const profile = {
-    name: 'Nazmul Hossain',
-    title: 'Full-Stack Developer | Cloud Enthusiast | Problem Solver',
+    name: 'Rahul Jha',
+    title: 'Full-Stack Developer | Cloud Enthusiast | Problem Solver | AI and Machine Learner',
     skills: [
-        'React', 'NextJS', 'Redux', 'Express',
-        'MySQL', 'MongoDB', 'Docker', 'AWS', 'TypeScript',
-        'GraphQL', 'Git', 'Linux', 'Discord Development'
+        'React', 'NodeJS', 'Redux', 'Express',
+        'MySQL', 'MongoDB', 'Docker', 'AWS',
+        , 'Git', 'Linux'.
     ],
     hardWorker: true,
     quickLearner: true,
     problemSolver: true,
-    yearsOfExperience: 4, 
+    yearsOfExperience: 0, 
     hireable: function() {
         return (
             this.hardWorker &&
             this.problemSolver &&
-            this.skills.length >= 5 &&
-            this.yearsOfExperience >= 3
+            this.skills.length >= 3 &&
+            this.yearsOfExperience >= 0
         );
     }
 };
@@ -190,7 +190,7 @@ const profile = {
                     I&apos;m
                     <span className="typing-effect gradient-text">
                       {" "}
-                      Nazmul Hossain
+                      Rahul Jha
                     </span>
                   </span>
                 </h1>
@@ -211,21 +211,21 @@ const profile = {
               {/* Description */}
               <div className="relative mb-8 sm:mb-12 max-w-xl">
                 <p className="text-base sm:text-xl text-gray-300/90 leading-relaxed">
-                  JavaScript lover 🚀 | OlovaJS creator 🔧 | Crafting frameworks
-                  and coding the future 💻✨
-                </p>
+                   BTech Computer Science student | Software Developer |
+                   Building AI-powered applications and modern web solutions.
+</p>
               </div>
 
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 animate__animated animate__fadeInUp animate__delay-2s">
                 {/* View Projects Button */}
                 <a
-                  href="https://github.com/seraprogrammer"
+                  href="/projects"
                   className="group relative inline-flex items-center justify-center gap-3 bg-gradient-to-r from-blue-500 to-teal-400 p-0.5 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-[0_0_2rem_-0.5rem_#60A5FA]"
                 >
                   <span className="block w-full px-6 sm:px-8 py-3 sm:py-4 rounded-[11px] bg-gray-900 transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-blue-500 group-hover:to-teal-400">
                     <span className="relative flex items-center justify-center gap-2 text-white font-medium">
-                      <span>Learn More</span>
+                      <span>View Projects</span>
                       <i className="fas fa-arrow-right transform transition-all duration-300 group-hover:translate-x-1"></i>
                     </span>
                   </span>
@@ -233,7 +233,7 @@ const profile = {
 
                 {/* Contact Button */}
                 <a
-                  href="#"
+                  href="https://drive.google.com/file/d/14PHmdXrpzNw_xoreddGpQkZaGcsj2pR_/view?usp=sharing"
                   className="group relative inline-flex items-center justify-center gap-3 p-0.5 rounded-xl bg-gradient-to-r from-gray-800 to-gray-700 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_2rem_-0.5rem_#60A5FA]"
                 >
                   <span className="block w-full px-6 sm:px-8 py-3 sm:py-4 rounded-[11px] bg-gray-900 border border-gray-700/50 transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-gray-800 group-hover:to-gray-700">
@@ -244,6 +244,33 @@ const profile = {
                   </span>
                 </a>
               </div>
+
+              {/* Social Buttons */}
+<div className="flex gap-6 mt-6 animate__animated animate__fadeInUp animate__delay-2s">
+
+  {/* GitHub */}
+  <a
+    href="https://github.com/Rahulkumarjha07"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-2 px-5 py-3 bg-gray-900 border border-gray-700 rounded-xl hover:border-white transition-all duration-300 hover:scale-105"
+  >
+    <i className="fab fa-github text-xl"></i>
+    <span className="text-gray-300 hover:text-white">GitHub</span>
+  </a>
+
+  {/* LinkedIn */}
+  <a
+    href="https://www.linkedin.com/in/rahuljha007/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-2 px-5 py-3 bg-gray-900 border border-gray-700 rounded-xl hover:border-blue-500 transition-all duration-300 hover:scale-105"
+  >
+    <i className="fab fa-linkedin text-xl text-blue-400"></i>
+    <span className="text-gray-300 hover:text-white">LinkedIn</span>
+  </a>
+
+</div>
 
               {/* Floating badges */}
               <div className="hidden lg:block absolute left-[5.5rem] top-[2.3rem] animate-float-slow">

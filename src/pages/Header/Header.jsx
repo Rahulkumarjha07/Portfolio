@@ -32,7 +32,7 @@ export default function Header() {
     {
       id: "experience",
       icon: FaBriefcase,
-      text: "Experience",
+      text: "Certifications",
       path: "/experience",
     },
     {

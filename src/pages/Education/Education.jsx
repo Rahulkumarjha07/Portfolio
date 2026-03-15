@@ -13,28 +13,54 @@ import { motion } from "framer-motion";
 const EducationSection = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
-  const educationData = [
-    {
-      degree: "Secondary School Certificate (SSC)",
-      school: "Natore Textile Institute",
-      mascot: "📘",
-      year: "2019-2021",
-      achievements: ["GPA: 4.89", "Subject: Science"],
-      skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
-      description:
-        "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
-    },
-    {
-      degree: "Higher Secondary Certificate (HSC)",
-      school: "Dottopara Model Degree College",
-      mascot: "📗",
-      year: "2021-2023",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
-      skills: ["Literature", "Social Studies", "Economics", "History"],
-      description:
-        "Developed strong analytical and critical thinking skills through comprehensive study of humanities and social sciences.",
-    },
-  ];
+ const educationData = [
+  {
+    degree: "Bachelor of Technology - Computer Science and Engineering",
+    school: "Lovely Professional University",
+    mascot: "🎓",
+    year: "Aug 2023 – Present",
+    achievements: ["CGPA: 8.0"],
+    skills: [
+      "Data Structures",
+      "Algorithms",
+      "Operating Systems",
+      "Database Systems",
+      "Software Development"
+    ],
+    description:
+      "Currently pursuing B.Tech in Computer Science and Engineering with a strong focus on software development, data structures, and building real-world applications.",
+  },
+  {
+    degree: "Intermediate (Class XII)",
+    school: "Narayana Junior College, Hyderabad",
+    mascot: "📘",
+    year: "Apr 2021 – May 2022",
+    achievements: ["Percentage: 97.7%"],
+    skills: [
+      "Mathematics",
+      "Physics",
+      "Chemistry",
+      "Analytical Thinking"
+    ],
+    description:
+      "Completed intermediate education with excellent academic performance and strong foundation in mathematics and science.",
+  },
+  {
+    degree: "Matriculation (Class X)",
+    school: "Narayana High School, Tadipatri",
+    mascot: "📗",
+    year: "Jun 2019 – Mar 2020",
+    achievements: ["Percentage: 100%"],
+    skills: [
+      "Mathematics",
+      "Science",
+      "Problem Solving",
+      "Logical Thinking"
+    ],
+    description:
+      "Achieved outstanding academic performance in matriculation with perfect score and strong fundamentals in science and mathematics.",
+  },
+];
 
   const containerVariants = {
     hidden: { opacity: 0 },

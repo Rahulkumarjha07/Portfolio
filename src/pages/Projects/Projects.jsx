@@ -5,44 +5,46 @@ import PropTypes from "prop-types";
 
 const projects = [
   {
-    title: "Olova! A Lightweight JavaScript Library",
+    title: "StayNest – Hotel Booking Platform",
     description:
-      "A lightweight JavaScript library for creating beautiful, responsive UI components.",
-    src: "rock.jpg",
-    link: "https://i.postimg.cc/DwgWTfP0/Annotation-2025-03-19-113338.png",
+      "A full-stack hotel booking platform where users can browse stays, view listings, and manage bookings. Built with modern web technologies and deployed for real-world use.",
+    src: "staynest.jpg",
+    link: "https://images.unsplash.com/photo-1566073771259-6a8506099945",
     color: "#5196fd",
-    githubLink: "https://github.com/olovajs/olova",
-    liveLink: "https://olova.js.org/",
+    githubLink: "https://github.com/Rahulkumarjha07/StayNest",
+    liveLink: "https://stayhub-5fzj.onrender.com",
   },
   {
-    title: "A sleek portfolio built with React and Tailwind CSS ",
+    title: "Car Rental Assistant",
     description:
-      "A sleek portfolio built with React and Tailwind CSS to showcase your skills, projects, and experience in a modern design.",
-    src: "tree.jpg",
-    link: "https://i.postimg.cc/J75CKyrs/Annotation-2025-04-01-203959.png",
+      "An AI-powered car rental assistant that helps users explore rental cars, manage bookings, and get automated assistance. Built with modern web technologies and deployed online.",
+    src: "car.jpg",
+    link: "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
     color: "#8f89ff",
-    githubLink: "https://github.com/seraprogrammer/portfolio",
-    liveLink: "https://codervai.vercel.app",
+    githubLink: "https://github.com/Rahulkumarjha07/rental-car-assistant",
+    liveLink:
+      "https://rental-car-assistant-j6w9w9r3h-rahuls-projects-24cdaedd.vercel.app/",
   },
   {
-    title: "🚀 CodeWhisperer",
+    title: "Coffee Shop Sales Dashboard",
     description:
-      "🚀 CodeWhisperer A powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
-    src: "water.jpg",
-    link: "https://i.postimg.cc/J4jPVFY0/Annotation-2025-04-01-204723.png",
-    color: "#fff",
-    githubLink: "https://github.com/seraprogrammer/codewhisperer",
-    liveLink: "https://codewhisperer.vercel.app/",
-  },
-  {
-    title: "CodeKori 🔥",
-    description:
-      "CodeKori is a powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
-    src: "house.jpg",
-    link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
+      "A Power BI dashboard that analyzes coffee shop sales data with interactive visualizations, revenue trends, and product insights for business decision making.",
+    src: "coffee.jpg",
+    link: "https://images.unsplash.com/photo-1509042239860-f550ce710b93",
     color: "#ed649e",
-    githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
+    githubLink: "https://github.com/Rahulkumarjha07/power-bi",
+    liveLink:
+      "https://www.linkedin.com/posts/rahuljha007_powerbi-dataanalytics-dashboarddesign-activity-7407061242672033792-FIEi",
+  },
+  {
+    title: "Resource Allocation Graph Simulator",
+    description:
+      "A simulator for visualizing Resource Allocation Graphs and detecting deadlocks in operating systems using graph algorithms and interactive visualization.",
+    src: "rag.jpg",
+    link: "https://images.unsplash.com/photo-1555949963-aa79dcee981c",
+    color: "#00c896",
+    githubLink: "https://github.com/Rahulkumarjha07/RAG-SIMULATOR",
+    liveLink: "https://github.com/Rahulkumarjha07/RAG-SIMULATOR",
   },
 ];
 
